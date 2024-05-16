@@ -18,4 +18,11 @@ for (let i = 2; i > 0; i--) {
   selectMenu[2].firstElementChild.insertAdjacentHTML("afterend", option);
 }
 
-setInterval(() => {}, 1000);
+setInterval(() => {
+  //Getting Hours ~ Minutes ~ Seconds !
+  let date = new Date(),
+    h = date.getHours(),
+    m = date.getMinutes(),
+    s = date.getSeconds(),
+    ampm = "AM";
+}, 1000);
