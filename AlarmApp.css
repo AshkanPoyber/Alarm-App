@@ -53,4 +53,6 @@ body {
   outline: none;
   border: none;
   height: 53px;
+  width: 100%;
+  font-size: 19px;
 }
