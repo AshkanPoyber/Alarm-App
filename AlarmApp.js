@@ -53,11 +53,12 @@ setInterval(() => {
 
 function setAlarm() {
   if (isAlarmSet) {
-    alarmTime = "";
-    ringtone.pause();
+    //If isAlarmSet Is True !
+    alarmTime = ""; //Clear The Value Of alarmTime !
+    ringtone.pause(); //Pause The Ringtone !
     content.classList.remove("disable");
     setAlarmBtn.innerText = "Set Alarm";
-    return (isAlarmSet = false);
+    return (isAlarmSet = false); //Return isAlarmSet Value To False !
   }
 
   //Getting Hour ~ Minute ~ AMPM Select Tag Value !
