@@ -32,4 +32,5 @@ setInterval(() => {
   }
   //If Hour Value IS 0 ~ Set This Value To 12 !
   h = h == 0 ? (h = 12) : h;
+  //Adding 0 Before Hour ~ Minute ~ Second If This Value Is Less Than 10 !
 }, 1000);
