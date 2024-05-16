@@ -41,8 +41,11 @@ setInterval(() => {
   h = h < 10 ? "0" + h : h;
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
-
   currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
+
+  if (alarmTime == `${h}:${m} ${ampm}`) {
+    console.log("Alarm Ringing.....");
+  }
 }, 1000);
 
 function setAlarm() {
@@ -56,6 +59,7 @@ function setAlarm() {
   ) {
     return alert("Please Select A Valid Time To Set Alarm !");
   }
+  alarmTime = time;
   content.classList.add("disable");
   setAlarmBtn.innerText = "Clear Alarm";
 }
