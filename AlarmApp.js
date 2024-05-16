@@ -42,4 +42,9 @@ setInterval(() => {
   currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
 }, 1000);
 
+function setAlarm() {
+  let time = `${selectMenu[0].value}:${selectMenu[1].value} ${selectMenu[2].value}`;
+  console.log(time);
+}
+
 setAlarmBtn.addEventListener("click", setAlarm);
