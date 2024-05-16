@@ -1,4 +1,5 @@
 const currentTime = document.querySelector("h1"),
+  content = document.querySelector(".content"),
   selectMenu = document.querySelectorAll("select"),
   setAlarmBtn = document.querySelector("button");
 
@@ -53,6 +54,7 @@ function setAlarm() {
   ) {
     return alert("Please Select A Valid Time To Set Alarm !");
   }
+  content.classList.add("disable");
   console.log(time);
 }
 
