@@ -16,7 +16,7 @@
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Alarm App
 My Another Project -> ( Alarm App ) 
 <br>
-🛑 Please Pay Attention , This Project Create And Developed By AshkanPoyber And You Can Use It For Any Time To Make You Wake Up You Can Set Hour , Minute And AM/PM To Set A Accurate Alarm Clock And With Ringtone :) . If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
+🛑 Please Pay Attention , This Project Create And Developed By AshkanPoyber And You Can Use It For Any Time To Make You Wake Up ~ You Can Set Hour , Minute And AM/PM To Set A Accurate Alarm Clock With Ringtone :) . If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Changelog 
 v1.0.0.0 : <br>
