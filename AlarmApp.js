@@ -51,7 +51,7 @@ function setAlarm() {
     time.includes("Minute") ||
     time.includes("AM/PM")
   ) {
-    return alert("Please , Select A Valid Time To Set Alarm !");
+    return alert("Please Select A Valid Time To Set Alarm !");
   }
   console.log(time);
 }
