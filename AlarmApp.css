@@ -25,9 +25,9 @@ body {
   border-radius: 10px;
   flex-direction: column;
   padding: 30px 30px 38px;
-  display: flex; /* اضافه شده */
-  align-items: center; /* اضافه شده */
-  justify-content: center; /* اضافه شده */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper img {
@@ -38,9 +38,9 @@ body {
   font-size: 38px;
   font-weight: 500;
   margin: 30px 0;
-  display: flex; /* اضافه شده */
-  align-items: center; /* اضافه شده */
-  justify-content: center; /* اضافه شده */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper .content {
@@ -61,6 +61,7 @@ body {
   height: 53px;
   width: 100%;
   font-size: 19px;
+  background-color: transparent;
 }
 
 .wrapper button {
