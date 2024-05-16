@@ -41,3 +41,5 @@ setInterval(() => {
 
   currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
 }, 1000);
+
+setAlarmBtn.addEventListener("click", setAlarm);
