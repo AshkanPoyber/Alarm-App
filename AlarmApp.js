@@ -3,7 +3,8 @@ const currentTime = document.querySelector("h1"),
   selectMenu = document.querySelectorAll("select"),
   setAlarmBtn = document.querySelector("button");
 
-let alarmTime;
+let alarmTime,
+  ringtone = new Audio("./Ringtone/ringtone.mp3");
 
 for (let i = 12; i > 0; i--) {
   i = i < 10 ? "0" + i : i;
@@ -44,7 +45,8 @@ setInterval(() => {
   currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
 
   if (alarmTime == `${h}:${m} ${ampm}`) {
-    console.log("Alarm Ringing.....");
+    ringtone.play();
+    ringtone.loop = true;
   }
 }, 1000);
 
