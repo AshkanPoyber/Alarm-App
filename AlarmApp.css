@@ -30,3 +30,9 @@ body {
 .wrapper img {
   max-width: 103px;
 }
+
+.wrapper h1 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0;
+}
