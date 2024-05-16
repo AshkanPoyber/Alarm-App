@@ -1,4 +1,5 @@
-const selectMenu = document.querySelectorAll("select");
+const currentTime = document.querySelectorAll("select"),
+  selectMenu = document.querySelectorAll("select");
 
 for (let i = 12; i > 0; i--) {
   i = i < 10 ? "0" + i : i;
