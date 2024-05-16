@@ -25,4 +25,11 @@ setInterval(() => {
     m = date.getMinutes(),
     s = date.getSeconds(),
     ampm = "AM";
+
+  if (h >= 12) {
+    h = h - 12;
+    ampm = "PM";
+  }
+  //If Hour Value IS 0 ~ Set This Value To 12 !
+  h = h == 0 ? (h = 12) : h;
 }, 1000);
