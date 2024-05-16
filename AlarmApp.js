@@ -1,5 +1,6 @@
 const currentTime = document.querySelector("h1"),
-  selectMenu = document.querySelectorAll("select");
+  selectMenu = document.querySelectorAll("select"),
+  setAlarmBtn = document.querySelector("button");
 
 for (let i = 12; i > 0; i--) {
   i = i < 10 ? "0" + i : i;
