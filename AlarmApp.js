@@ -71,6 +71,7 @@ function setAlarm() {
   ) {
     return alert("Please Select A Valid Time To Set Alarm !");
   }
+  isAlarmSet = true;
   alarmTime = time;
   content.classList.add("disable");
   setAlarmBtn.innerText = "Clear Alarm";
