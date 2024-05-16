@@ -61,6 +61,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  cursor: pointer;
   color: #fff;
   margin-top: 20px;
   font-size: 20px;
