@@ -1,3 +1,5 @@
 const selectMenu = document.querySelectorAll("select");
 
-console.log(selectMenu);
+for (let i = 12; i > 0; i--) {
+  console.log(i);
+}
