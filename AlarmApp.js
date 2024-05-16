@@ -52,6 +52,14 @@ setInterval(() => {
 }, 1000);
 
 function setAlarm() {
+  if (isAlarmSet) {
+    alarmTime = "";
+    ringtone.pause();
+    content.classList.remove("disable");
+    setAlarmBtn.innerText = "Set Alarm";
+    return (isAlarmSet = false);
+  }
+
   //Getting Hour ~ Minute ~ AMPM Select Tag Value !
   let time = `${selectMenu[0].value}:${selectMenu[1].value} ${selectMenu[2].value}`;
 
