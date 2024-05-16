@@ -46,7 +46,13 @@ function setAlarm() {
   //Getting Hour ~ Minute ~ AMPM Select Tag Value !
   let time = `${selectMenu[0].value}:${selectMenu[1].value} ${selectMenu[2].value}`;
 
-  if()
+  if (
+    time.includes("Hour") ||
+    time.includes("Minute") ||
+    time.includes("AM/PM")
+  ) {
+    return alert("");
+  }
   console.log(time);
 }
 
