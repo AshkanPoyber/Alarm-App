@@ -13,7 +13,7 @@ for (let i = 59; i >= 0; i--) {
 }
 
 for (let i = 2; i > 0; i--) {
-  i = i < 10 ? "0" + i : i;
-  let option = `<option value="${i}">${i}</option>`;
+  let ampm = i == 1 ? "AM" : "PM";
+  let option = `<option value="${ampm}">${ampm}</option>`;
   selectMenu[2].firstElementChild.insertAdjacentHTML("afterend", option);
 }
