@@ -39,5 +39,5 @@ body {
 
 .wrapper .content {
   width: 100%;
-  background: red;
+  justify-content: space-between;
 }
