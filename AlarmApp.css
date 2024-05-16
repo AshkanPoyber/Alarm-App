@@ -16,7 +16,7 @@ body,
 
 body {
   min-height: 100vh;
-  background: linear-gradient(red, blue);
+  background: linear-gradient(blue, aqua);
 }
 
 .wrapper {
@@ -28,6 +28,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-style: solid;
+  border-color: rgb(0, 255, 0);
 }
 
 .wrapper img {
