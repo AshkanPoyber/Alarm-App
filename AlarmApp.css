@@ -18,3 +18,11 @@ body {
   min-height: 100vh;
   background: linear-gradient(red, blue);
 }
+
+.wrapper {
+  width: 440px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 30px 30px 38px;
+}
