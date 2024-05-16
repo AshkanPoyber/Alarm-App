@@ -1,4 +1,4 @@
-const currentTime = document.querySelectorAll("select"),
+const currentTime = document.querySelector("h1"),
   selectMenu = document.querySelectorAll("select");
 
 for (let i = 12; i > 0; i--) {
@@ -38,5 +38,5 @@ setInterval(() => {
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
 
-  console.log(`${h}:${m}:${s} ${ampm}`);
+  currentTime.innerText = `${h}:${m}:${s} ${ampm}`;
 }, 1000);
