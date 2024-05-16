@@ -17,3 +17,5 @@ for (let i = 2; i > 0; i--) {
   let option = `<option value="${ampm}">${ampm}</option>`;
   selectMenu[2].firstElementChild.insertAdjacentHTML("afterend", option);
 }
+
+setInterval(() => {}, 1000);
