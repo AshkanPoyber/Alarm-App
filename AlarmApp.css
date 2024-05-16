@@ -26,3 +26,7 @@ body {
   flex-direction: column;
   padding: 30px 30px 38px;
 }
+
+.wrapper img {
+  max-width: 103px;
+}
